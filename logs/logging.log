@@ -259,3 +259,127 @@ AttributeError: 'DataValidationTrainingPipeline' object has no attribute 'initia
 [2024-12-10 14:05:50,201:INFO:main:>>>> stage Data Validation Stage completed <<<<
 
  x ==========x]
+[2024-12-13 17:00:11,583:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-13 17:00:11,608:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-13 17:00:11,624:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-13 17:00:11,635:INFO:common:created directory at: artifacts]
+[2024-12-13 17:06:30,032:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-13 17:06:30,035:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-13 17:06:30,038:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-13 17:06:30,040:INFO:common:created directory at: artifacts]
+[2024-12-13 17:06:30,043:INFO:common:created directory at: artifacts/data_transformation]
+[2024-12-13 17:06:30,094:INFO:2147566875:Splitting data into train and test set]
+[2024-12-13 17:06:30,095:INFO:2147566875:(1199, 12)]
+[2024-12-13 17:06:30,096:INFO:2147566875:(400, 12)]
+[2024-12-13 17:36:43,902:INFO:main:>>>> stage Data Ingestion Stage started <<<<]
+[2024-12-13 17:36:43,904:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-13 17:36:43,905:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-13 17:36:43,907:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-13 17:36:43,908:INFO:common:created directory at: artifacts]
+[2024-12-13 17:36:43,908:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-13 17:36:43,909:INFO:data_ingestion:File already exists]
+[2024-12-13 17:36:43,927:INFO:main:>>>> stage Data Ingestion Stage completed <<<<
+
+ x ==========x]
+[2024-12-13 17:36:43,928:INFO:main:>>>> stage Data Validation Stage started <<<<]
+[2024-12-13 17:36:43,931:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-13 17:36:43,932:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-13 17:36:43,934:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-13 17:36:43,935:INFO:common:created directory at: artifacts]
+[2024-12-13 17:36:43,935:INFO:common:created directory at: artifacts/data_validation]
+[2024-12-13 17:36:43,936:INFO:main:>>>> stage Data Validation Stage completed <<<<
+
+ x ==========x]
+[2024-12-13 17:36:43,936:INFO:main:>>>> stage Data Transformation Stage started <<<<]
+[2024-12-13 17:36:43,936:ERROR:main:DataTransformationTrainingPipeline.__init__() takes 0 positional arguments but 1 was given]
+Traceback (most recent call last):
+  File "D:\[ Learning ] - MLOps\10. END TO END PROJECT\Ptoject_1\main.py", line 31, in <module>
+    data_transformation = DataTransformationTrainingPipeline()
+TypeError: DataTransformationTrainingPipeline.__init__() takes 0 positional arguments but 1 was given
+[2024-12-13 17:39:47,353:INFO:main:>>>> stage Data Ingestion Stage started <<<<]
+[2024-12-13 17:39:47,355:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-13 17:39:47,356:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-13 17:39:47,358:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-13 17:39:47,359:INFO:common:created directory at: artifacts]
+[2024-12-13 17:39:47,359:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-13 17:39:47,360:INFO:data_ingestion:File already exists]
+[2024-12-13 17:39:47,362:INFO:main:>>>> stage Data Ingestion Stage completed <<<<
+
+ x ==========x]
+[2024-12-13 17:39:47,363:INFO:main:>>>> stage Data Validation Stage started <<<<]
+[2024-12-13 17:39:47,364:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-13 17:39:47,366:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-13 17:39:47,367:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-13 17:39:47,368:INFO:common:created directory at: artifacts]
+[2024-12-13 17:39:47,369:INFO:common:created directory at: artifacts/data_validation]
+[2024-12-13 17:39:47,370:INFO:main:>>>> stage Data Validation Stage completed <<<<
+
+ x ==========x]
+[2024-12-13 17:39:47,371:INFO:main:>>>> stage Data Transformation Stage started <<<<]
+[2024-12-13 17:39:47,373:ERROR:main:DataTransformationTrainingPipeline.__init__() takes 0 positional arguments but 1 was given]
+Traceback (most recent call last):
+  File "D:\[ Learning ] - MLOps\10. END TO END PROJECT\Ptoject_1\main.py", line 31, in <module>
+    data_transformation = DataTransformationTrainingPipeline()
+TypeError: DataTransformationTrainingPipeline.__init__() takes 0 positional arguments but 1 was given
+[2024-12-13 17:41:01,039:INFO:main:>>>> stage Data Ingestion Stage started <<<<]
+[2024-12-13 17:41:01,041:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-13 17:41:01,041:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-13 17:41:01,044:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-13 17:41:01,045:INFO:common:created directory at: artifacts]
+[2024-12-13 17:41:01,045:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-13 17:41:01,045:INFO:data_ingestion:File already exists]
+[2024-12-13 17:41:01,049:INFO:main:>>>> stage Data Ingestion Stage completed <<<<
+
+ x ==========x]
+[2024-12-13 17:41:01,049:INFO:main:>>>> stage Data Validation Stage started <<<<]
+[2024-12-13 17:41:01,051:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-13 17:41:01,052:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-13 17:41:01,054:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-13 17:41:01,055:INFO:common:created directory at: artifacts]
+[2024-12-13 17:41:01,056:INFO:common:created directory at: artifacts/data_validation]
+[2024-12-13 17:41:01,056:INFO:main:>>>> stage Data Validation Stage completed <<<<
+
+ x ==========x]
+[2024-12-13 17:41:01,056:INFO:main:>>>> stage Data Transformation Stage started <<<<]
+[2024-12-13 17:41:01,074:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-13 17:41:01,075:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-13 17:41:01,078:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-13 17:41:01,079:INFO:common:created directory at: artifacts]
+[2024-12-13 17:41:01,080:INFO:common:created directory at: artifacts/data_transformation]
+[2024-12-13 17:41:01,113:INFO:data_transformation:Splitting data into train and test set]
+[2024-12-13 17:41:01,114:INFO:data_transformation:(1199, 12)]
+[2024-12-13 17:41:01,114:INFO:data_transformation:(400, 12)]
+[2024-12-13 17:41:01,114:INFO:main:>>>> stage Data Transformation Stage completed <<<<
+
+ x ==========x]
+[2024-12-13 17:41:40,722:INFO:main:>>>> stage Data Ingestion Stage started <<<<]
+[2024-12-13 17:41:40,724:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-13 17:41:40,725:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-13 17:41:40,727:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-13 17:41:40,728:INFO:common:created directory at: artifacts]
+[2024-12-13 17:41:40,729:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-13 17:41:40,729:INFO:data_ingestion:File already exists]
+[2024-12-13 17:41:40,732:INFO:main:>>>> stage Data Ingestion Stage completed <<<<
+
+ x ==========x]
+[2024-12-13 17:41:40,733:INFO:main:>>>> stage Data Validation Stage started <<<<]
+[2024-12-13 17:41:40,735:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-13 17:41:40,736:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-13 17:41:40,738:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-13 17:41:40,739:INFO:common:created directory at: artifacts]
+[2024-12-13 17:41:40,739:INFO:common:created directory at: artifacts/data_validation]
+[2024-12-13 17:41:40,740:INFO:main:>>>> stage Data Validation Stage completed <<<<
+
+ x ==========x]
+[2024-12-13 17:41:40,740:INFO:main:>>>> stage Data Transformation Stage started <<<<]
+[2024-12-13 17:41:40,744:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-13 17:41:40,746:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-13 17:41:40,748:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-13 17:41:40,749:INFO:common:created directory at: artifacts]
+[2024-12-13 17:41:40,750:INFO:common:created directory at: artifacts/data_transformation]
+[2024-12-13 17:41:40,781:INFO:data_transformation:Splitting data into train and test set]
+[2024-12-13 17:41:40,781:INFO:data_transformation:(1199, 12)]
+[2024-12-13 17:41:40,781:INFO:data_transformation:(400, 12)]
+[2024-12-13 17:41:40,782:INFO:main:>>>> stage Data Transformation Stage completed <<<<
+
+ x ==========x]
